@@ -33,6 +33,6 @@ Installation d'un environnement LAMP avec Docker et Symfony4.
 
 ## Utilisation  
 Dans votre navigateur :  
-- http://localhost:8080 => Votre application  
-- http://localhost:8081 => Adminer  
-- http://localhost:8081 => MailDev  
+- http://localhost:[HTTP_PORT] => Votre application  
+- http://localhost:[ADMINER_PORT] => Adminer  
+- http://localhost:[MAILDEV_PORT] => MailDev  
