@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <title>{% block title %}{% endblock %} - Mon site en Symfony 4</title>
+        <title>{% block title %}{% endblock %} - {{ appConfig.getAppName() }}</title>
 
         {% block stylesheets %}{% endblock %}
 

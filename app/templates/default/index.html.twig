@@ -3,5 +3,5 @@
 {% block title %}Hello World{% endblock %}
 
 {% block body %}
-    <h1>Il est classe ? ou il est pas classe ? Mon site</h1>
+    <h1>{{ appConfig.getAppTitle() }}</h1>
 {% endblock %}
