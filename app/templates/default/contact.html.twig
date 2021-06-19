@@ -3,7 +3,7 @@
 {% block title %}Contactez-nous{% endblock %}
 
 {% block body %}
-    <h1>Contactez-nous</h1>
+    <h1>Contactez-nous{% if editmode %} <small> - mode édition</small>{% endif %}</h1>
 
     {{ form(form) }}
 {% endblock %}

@@ -1,0 +1,9 @@
+.alert {
+    padding: 0.5rem 1rem;
+    text-align: center;
+
+    &.alert-success {
+        color: $color-fg;
+        background-color: forestgreen;
+    }
+}

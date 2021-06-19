@@ -13,6 +13,8 @@ html {
 
         @import "header";
 
+        @import "../components/flash";
+
         @import "main";
     }
 }
