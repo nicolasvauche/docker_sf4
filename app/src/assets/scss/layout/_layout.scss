@@ -1,0 +1,18 @@
+html {
+    font-size: $font-size-default;
+
+    body {
+        font-family: $font-family-primary;
+        font-size: 1rem;
+        color: $color-fg;
+        background-color: $color-bg;
+
+        a {
+            color: $color-fg;
+        }
+
+        @import "header";
+
+        @import "main";
+    }
+}

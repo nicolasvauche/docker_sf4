@@ -1,0 +1,14 @@
+<header class="app-header">
+    <a href="{{ path('home') }}" class="app-brandname">
+        <img src="{{ asset('img/logo.png') }}" alt="{{ appConfig.getAppName() }}" />
+        {{ appConfig.getAppName() }}
+    </a>
+
+    <nav class="app-navigation">
+        <ul>
+            <li>
+                <a href="{{ path('home') }}" title="Retour à l'accueil">Accueil</a>
+            </li>
+        </ul>
+    </nav>
+</header>
