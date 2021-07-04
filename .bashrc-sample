@@ -8,10 +8,14 @@
 PS1='\n\u@\h (\W) $ '
 
 # ls aliases :
-
 alias ls='ls --color=auto'
 alias lsa='ls -lart'
 
 #symfony aliases :
-
 alias sf="php bin/console"
+alias sfcc="sf cache:clear"
+alias sfdbdr="sf doctrine:database:drop --force"
+alias sfdbc="sf doctrine:database:create"
+alias sfmig="sf doctrine:migrations:migrate --no-interaction"
+alias sfix="sf doctrine:fixtures:load --no-interaction"
+alias sfdbd="sfdbdr && sfdbc && sfmig && sfix && sfcc"
